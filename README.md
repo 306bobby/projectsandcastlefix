@@ -3,36 +3,39 @@ Project Sandcastle will currently fail on iOS 14.4 and up, in this git repositor
 
 
 
-INSTRUCTIONS
+## Installation instructions
 
-Download Project Sandbox Android edition
+* Download Project Sandcastle Android edition
 
-Jailbreak with current checkra1n
+* Jailbreak with current checkra1n
 
-Change the contained iSetup file with the one in this git
+* Replace the Sandcastle isetup file with the one in this git
 
-Run ./setup.sh
+* Run ./setup.sh or otherwise run the isetup script on your device
 
-Download checkra1n version 0.10.1
+* Download checkra1n version 0.10.1
 
-Run the start.sh
+* Run the start.sh. For linux users, there is an included start_linux.sh
 
 Enjoy :)
 
 
-KNOWN ISSUES
 
-checkra1n 0.10.2 works sometimes but is inconsistent
+## How to fix the touchscreen on a previous installation
 
-checkra1n 0.11 crashes nto pongoOS
+Warning: please back up your nand file. The isetup file should work on all sandcastle installations with the official nand image, but no guarantee.
 
-checkra1n 0.12-0.12.1 does not boot into pongoOS
-
-
-checkra1n 0.12.2-present does not load the image into pongoOS
+All you need to do is run the isetup script on your device. The script will detect if you have already installed sandcastle.
 
 
 
-Touchscreen functionality is not working currently
+## Known issues
 
-I have submitted an issue for Pongo to hopefully get the touchscreen functional (if it is a Pongo problem, may not be)
+checkra1n 0.10.2 works sometimes but is inconsistent.
+
+checkra1n 0.11 crashes nto pongoOS.
+
+checkra1n 0.12-0.12.1 does not boot into pongoOS.
+
+
+checkra1n 0.12.2-present does not load the image into pongoOS.
