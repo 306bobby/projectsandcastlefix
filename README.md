@@ -23,9 +23,9 @@ Enjoy :)
 
 ## How to fix the touchscreen on a previous installation
 
-Warning: please back up your nand file. The isetup file should work on all sandcastle installations with the official nand image, but no guarantee.
+**Warning**: please back up your nand file. The isetup file should work on all sandcastle installations from the official nand image, but no guarantee.
 
-All you need to do is run the isetup script on your device. The script will detect if you have already installed sandcastle.
+All you need to do is run this isetup script on your device. The script will detect if you have already installed sandcastle.
 
 
 
