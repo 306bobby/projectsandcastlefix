@@ -26,6 +26,11 @@ Enjoy :)
 All you need to do is run this isetup script on your device. The script will detect if you have already installed sandcastle.
 
 
+## Uninstall Sandcastle
+
+Transfer to and run the iremove script on your device.
+
+
 
 ## Known issues
 
