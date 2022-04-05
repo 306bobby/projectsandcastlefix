@@ -41,3 +41,8 @@ checkra1n 0.11 crashes to pongoOS.
 checkra1n 0.12-0.12.1 does not boot into pongoOS.
 
 checkra1n 0.12.2-present does not load the image into pongoOS.
+
+
+## Project Status
+
+ My iPhone 7 is currently waiting on iOS 15 for checkra1n to be updated. I expect to be able to port the project to 15 as well, however with sealed rootFS accessing the touchscreen and bluetooth driver may be difficult. This is TBD until I can test with the physical device. I have not tested any updated PongoOS versions, not sure if they work with 15 enough or not. Considering checkra1n 0.11 and above have broken the project with their respective PongoOS versions, I truthfully expect this project to be dead unless the checkra1n team throws us a bone and figures out why the previous versions crash. I've attempted a bug report but to no avail
